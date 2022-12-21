@@ -21,6 +21,14 @@ int main()
     {
         cout << arr[i] << endl;
     }
+    
+    int sum = 0;
+    for (int i = 2; i < 7; i++)
+    {
+        sum += arr[i];
+    }
+
+    cout << "sum " << sum;
 
 }
 
